@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "loan-risk-predictor"
-version = "0.1.5"
+version = "0.1.6"
 authors = [
   { name="Shanujan Suresh", email="shanujansh@gmail.com" },
 ]
@@ -26,5 +26,8 @@ dependencies = [
 Homepage = "https://github.com/shanujans/loan-risk-prediction"
 "Bug Tracker" = "https://github.com/shanujans/loan-risk-prediction/issues"
 
-[tool.setuptools.packages.find]
-where = ["src"]
+# This section explicitly tells setuptools what the package is and where to find it.
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["loan_risk_predictor"]
+include-package-data = true
