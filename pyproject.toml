@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "loan-risk-predictor"
-version = "0.1.3"
+version = "0.1.4"
 authors = [
-  { name="Shanujan Suresh", email="shanujansh@gmail.com" },
+  { name="Shanujan  Suresh", email="shanujansh@gmail.com" },
 ]
 description = "A package to predict loan risk using a decision tree model."
 readme = "README.md"
@@ -26,7 +26,5 @@ dependencies = [
 Homepage = "https://github.com/shanujans/loan-risk-prediction"
 "Bug Tracker" = "https://github.com/shanujans/loan-risk-prediction/issues"
 
-# This new section explicitly tells the builder where to find packages
-# and what to exclude, fixing the "Multiple top-level packages" error.
 [tool.setuptools.packages.find]
-exclude = ["notebooks*"]
+where = ["src"]
