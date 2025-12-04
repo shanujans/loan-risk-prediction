@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="loan-risk-predictor",
     version="1.0.0",
-    author="shanujansh@gmail.com",
+    author="Shanujan Suresh",
     author_email="shanujansh@gmail.com",
     description="A machine learning package for predicting loan default risk",
     long_description=long_description,
