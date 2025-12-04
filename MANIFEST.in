@@ -1,1 +1,1 @@
-include loan_risk_model/data/training.csv
+graft loan_risk_model/data
