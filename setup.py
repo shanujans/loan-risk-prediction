@@ -6,12 +6,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="loan-risk-predictor",
     version="1.0.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Shanujan Suresh",
+    author_email="shanujansh@gmail.com",
     description="Machine learning model for loan default risk prediction",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/loan-risk-prediction",
+    url="https://github.com/shanujans/loan-risk-prediction",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     classifiers=[
