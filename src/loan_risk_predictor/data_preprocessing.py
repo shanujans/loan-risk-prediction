@@ -4,8 +4,7 @@ from importlib import resources
 
 def load_data():
     """Loads the training data from the package resources."""
-    # This is the modern, robust way to access data files within a package
-    with resources.path("loan_risk_model.data", "training.csv") as data_path:
+    with resources.path("loan_risk_predictor.data", "training.csv") as data_path:
         return pd.read_csv(data_path)
 
 def preprocess_data(df):

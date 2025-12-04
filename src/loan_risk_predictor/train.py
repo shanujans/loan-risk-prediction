@@ -1,5 +1,5 @@
-from loan_risk_model.data_preprocessing import load_data, preprocess_data
-from loan_risk_model.model import train_model
+from loan_risk_predictor.data_preprocessing import load_data, preprocess_data
+from loan_risk_predictor.model import train_model
 
 def main():
     """Main function to run the training pipeline."""

@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "loan-risk-predictor"
-version = "0.1.4"
+version = "0.1.5"
 authors = [
-  { name="Shanujan  Suresh", email="shanujansh@gmail.com" },
+  { name="Shanujan Suresh", email="shanujansh@gmail.com" },
 ]
 description = "A package to predict loan risk using a decision tree model."
 readme = "README.md"
