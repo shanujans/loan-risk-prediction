@@ -14,7 +14,7 @@ setup(
     description="A machine learning package for predicting loan default risk",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/loan-risk-prediction",
+    url="https://github.com/shanujans/loan-risk-prediction",
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     classifiers=[
